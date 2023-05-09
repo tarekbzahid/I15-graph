@@ -39,7 +39,7 @@ def create_graph(data):
         closest = nsmallest(num_connections+1, range(len(dist_matrix[i])), key=lambda x: dist_matrix[i][x])
         closest.remove(i)
         for j in closest:
-            distance_km = distance(locations[i], locations[j]).kilometers
+            distance_km= distance(locations[i], locations[j]).kilometers
             graph[i].append((j, distance_km))
 
     return graph
