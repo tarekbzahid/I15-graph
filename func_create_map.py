@@ -1,3 +1,6 @@
+# This function plots sensor location on a map using latitide and longitude values
+# The plot is in intereactive HTML format and show the lanes each sensor is detecting
+
 import folium
 import pandas as pd
 
