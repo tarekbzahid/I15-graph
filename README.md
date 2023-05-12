@@ -10,4 +10,4 @@ raw_weight_adjacency_list: adjacency list for the static I15 sensor
 
 ### directory:
 detector: sensor data stored as csv
-viz: stores the visualizations
+viz: stores the visualizations 
