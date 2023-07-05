@@ -1,3 +1,5 @@
+# create a traffic graph using lat lon postions and number of immediate connections 
+
 import pandas as pd
 from geopy.distance import distance
 import numpy as np
